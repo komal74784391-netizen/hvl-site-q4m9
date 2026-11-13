@@ -1,0 +1,10 @@
+---
+layout: default
+---
+<article class="publication">
+  <h1>{{ page.title }}</h1>
+  <p class="meta">{{ page.authors }} — {{ page.venue }}, {{ page.year }}</p>
+  <p class="status">Status: {{ page.status }}</p>
+  {% if page.codeurl %}<p class="code"><a href="{{ page.codeurl }}">Code</a></p>{% endif %}
+  {{ content }}
+</article>

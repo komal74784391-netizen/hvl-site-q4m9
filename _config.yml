@@ -1,0 +1,15 @@
+title: Havelock-Vance Lab
+description: Computational ecology, remote sensing and environmental forecasting
+baseurl: ""
+url: "https://hvl.example.org"
+markdown: kramdown
+collections:
+  publications:
+    output: true
+    permalink: /publications/:path/
+defaults:
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: publication
